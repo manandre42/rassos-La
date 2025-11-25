@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ProfiAngola - Serviços Locais</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"IBM Plex Sans"', 'sans-serif'],
+            },
+            colors: {
+              carbon: {
+                900: '#161616',
+                800: '#262626',
+                700: '#393939',
+                600: '#525252',
+                100: '#f4f4f4',
+                50: '#fcfcfc'
+              },
+              angola: {
+                red: '#C8102E',
+                yellow: '#FFCD00',
+                black: '#000000'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'IBM Plex Sans', sans-serif;
+        background-color: #f4f4f4;
+        color: #161616;
+      }
+      /* Custom scrollbar for Carbon feel */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f4f4f4;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #8d8d8d;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #525252;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
